@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+
+}
+
+
+
+
+.header {
+    background-color: #1A1E24;
+    min-height: 35px;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto
+}
+
+.logo {
+    color: white;
+    width: 40%;
+    float: left;
+
+}
+
+.logo h2 {
+    display: inline-block;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-top: 6px;
+}
+
+.logo span i {
+    display: inline-block;
+    margin-left: 8px;
+    font-size: 10px;
+    color: #ddd
+}
+
+.main_menu {
+    width: 50%;
+    float: right;
+}
+
+.nav {
+    list-style-type: none;
+    float: right
+}
+
+.nav li {
+    float: left;
+    border-right: 1px solid #22262C;
+    border-left: 1px solid #22262C;
+
+}
+
+.nav li a {
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    font-size: 12px;
+}
+
+.nav li a i {
+    margin-right: 5px
+}
+
+.nav li a:hover {
+    background-color: #111419;
+}
+
+.banner {
+    min-height: 245px;
+    background: url(../images/c.jpeg);
+    background-size: cover;
+
+}
+
+
+.banner_content {
+    text-align: center;
+    color: white;
+    width: 60%;
+    margin: 0 auto;
+
+}
+
+.banner_content h2 {
+    font-size: 25px;
+    padding-top: 36px;
+}
+
+.banner_content p {
+    padding-top: 23px;
+    font-size: 16px
+}
+
+.banner_content button {
+    margin-top: 26px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #89C00A;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 42px
+}
+
+.banner_content .blue {
+    margin-top: 26px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #3390D8;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+.client_gallery {
+
+    overflow: hidden
+}
+
+.single_gallery {
+    width: 21%;
+    border: 1px solid #eee;
+    padding: 6px;
+    float: left;
+    text-align: center;
+    margin: 5.5%;
+
+}
+
+.image_part {}
+
+.image_part img {
+    width: 250px;
+    height: 150px;
+}
+
+.contain_part {}
+
+
+
+.contain_image {
+    width: 14%;
+    float: left;
+}
+
+.contain_image img {
+    width: 30px;
+    height: 30px;
+
+}
+
+.contain_content {
+    width: 86%;
+    float: right;
+    text-align: left;
+
+}
+
+.contain_content p {
+    font-size: 12px
+}
+
+.contain_content span {
+    font-size: 10px;
+    color: gray
+}
+
+.news_feed {
+    border-top: 1px solid black overflow: hidden
+}
+
+.double_image {
+        border-top: 1px solid #EBEBEB;
+    border-bottom: 1px solid #EBEBEB;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-bottom: 35px
+}
+
+.news {
+    width: 30%;
+    float: left;
+    margin: 1.6%
+}
+
+.image_news {
+    width: 10%;
+    float: left
+}
+
+.image_news img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    vertical-align: middle
+}
+
+
+.news_content {
+    width: 77%;
+    float: right;
+    padding-top: 12px;
+}
+
+.news_content span {
+    color: #D8D8D8;
+}
+
+.news_content p {
+    font-size: 14px;
+    color: #A2A6A9
+}
+
+.feature{
+    margin-bottom: 35px
+}
+.feature_content{
+    font-size: 14px;
+}
+.font1{
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+    
+    color: #CDCED0;
+    text-transform: uppercase;
+    margin-left: 10px;
+    padding-right: 60px;
+}
+.font2{
+        font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+    color: #353E48;
+    font-weight: bold;
+    padding-right: 60px;
+}
+.font3{
+    font-family: 'Noto Serif', serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #D0D0D0;
+    
+    padding-right: 60px;
+}
+.font4{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 22px;
+   
+    color: #C9CACC;
+    padding-right: 60px;
+}
+
+.font5{
+   
+    color: #C9CACC
+}
+
+.footer{
+    background-color: #1A1E24;
+    min-height: 160px;
+    margin-bottom: 20px;
+}
+
+.footer_content{
+    width: 60%;
+    float: left;
+    text-align: left;
+    padding-top: 15px
+}
+
+.footer_content span{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+.btm_menu{
+    width: 15%;
+    float: left
+}
+.btm_menu ul{
+    list-style-type: none;
+}
+.btm_menu ul li{
+    
+}
+.btm_menu ul li a{
+        text-decoration: none;
+    color: #ddd;
+    font-size: 10px;
+    display: block;
+    padding: 5px 0px;
+    
+}
+
+.social_icon{
+    width: 40%;
+    float: right;
+    padding-top: 15px;
+    text-align: right
+}
+.icon{
+    color: white;
+    width: 100%;
+    height: 50px
+}
+
+.copyright{
+    width: 100%;
+    height: 50px;
+    padding-top: 45px
+}
+
+.copyright p{
+    font-size: 10px;
+    color:#ddd;
+    
+}
+.copyright span{
+    font-size: 10px;
+    color:#ddd;
+}
+
+
+
+
+
+
+
